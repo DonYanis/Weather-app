@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="load-box  hide">
+            <div class="loading">
+                <span class="one"></span>
+                <span class="two"></span>
+                <span class="three"></span>
+            </div>
+        </div>
+        <div class="city-not-found hidden">
+            <p class="text">City not Found</p>
+            <button class="close">close</button>
+        </div>
+        <div class="search">
+            <button class="position"></button>
+            <input type="text" placeholder="type a city ..." >
+            <button class="search-btn"></button>
+        </div>
+        <div class="weather-info">
+            <div class="title">
+                <div class="city-name">City</div>
+                <div class="temperature">0°C</div>
+            </div>
+            <div class="line"></div>
+            <div class="weather-desc">
+                <img src="" alt="icon" class="icon" style="display: none;">
+                <div class="description">Cloudy</div>
+            </div>
+            <div class="details">
+                <div class="humidity">Humidity : 0%</div>
+                <div class="wind">Wind : 0 km/h</div>
+                <div class="time">Time : 00:00</div>
+                <div class="sunrise">Sunrise : 00:00:00</div>
+                <div class="sunset">Sunset : 00:00:00</div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
